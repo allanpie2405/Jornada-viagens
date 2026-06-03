@@ -1,8 +1,2 @@
-@font-face {
-    font-family: "Montserrat";
-    src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-}
-h1{
-    font-family: "Montserrat";
-}
+@import url(global.css);
+@import url(header.css);
