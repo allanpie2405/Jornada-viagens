@@ -10,6 +10,15 @@ header{
 .navigation-menu nav{
     display: none;
 }
+.navigation-menu nav a{
+    color: white;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+
+}
+
 .logo{
     display: inline-block;
     height: 64px;
