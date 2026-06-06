@@ -32,6 +32,7 @@ input[type="checkbox"]:checked ~ nav {
 #link-list li a {
   color: var(--background-secundary-color);
   text-decoration: none;
+  font-size: 24px;
 }
 
 .logo {
@@ -42,4 +43,31 @@ input[type="checkbox"]:checked ~ nav {
 .logo img {
   height: 64px;
   width: 64px;
+}
+
+@media screen and (min-width:748px){
+
+.navigation-menu{
+  width: 467px;
+}
+
+.navigation-menu label{
+  display: none;
+}
+.navigation-menu nav{
+  display: block;
+}
+.navigation-menu ul{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+#link-list li{
+  margin: 0;
+}
+
+
+
 }
